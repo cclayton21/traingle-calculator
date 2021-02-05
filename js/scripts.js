@@ -17,7 +17,8 @@ $(function(){
                 //let angleTotal = angleA + angleB + angleC;
                 let angleType = getAngleClassification(angleA,angleB,angleC);
 
-                let $angles = `<ul>`;
+                let $angles = "<p>(Angle A is opposite of side a, etc.)</p>";
+                $angles += `<ul>`;
                 $angles += `<li>Angle A: ${angleA}&deg;</li>`;
                 $angles += `<li>Angle B: ${angleB}&deg;</li>`;
                 $angles += `<li>Angle C: ${angleC}&deg;</li>`;
