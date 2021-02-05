@@ -1,0 +1,9 @@
+.inputContainer{
+    margin: 10px;
+}
+
+#triangle{
+    margin-left: 50px;
+    border:1px dashed rgb(0,0,0,.7)
+}
+
